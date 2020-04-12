@@ -31,7 +31,7 @@ aoh = [
 end
 
 def aoh_lookup(aoh, row, key)
-  array_of_hashes[row][:key]
+  aoh[row][:key]
 end
 
 def aoh_update(aoh, row, key, new_value)
